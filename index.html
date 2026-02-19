@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Advanced Calculus Notes</title> <!-- Stealth Name -->
+</head>
+<body style="background-color: #111; color: white; font-family: sans-serif; text-align: center;">
+    <h1>Chapter 4: Limits and Derivatives</h1>
+    <p>Select a resource below to begin your review.</p>
+
+    <!-- Game Buttons -->
+    <button style="padding: 10px 20px; cursor: pointer;" onclick="launchGame('https://unblockedgamesfree.github.io/1v1-lol/')">Resource A (1v1.lol)</button>
+    <br><br>
+    <button style="padding: 10px 20px; cursor: pointer;" onclick="launchGame('https://boxfightschampions.io')">Resource B (Box Fights)</button>
+
+    <script>
+    function launchGame(url) {
+        var win = window.open();
+        win.document.body.style.margin = '0';
+        win.document.body.style.height = '100vh';
+        var iframe = win.document.createElement('iframe');
+        iframe.style.border = 'none';
+        iframe.style.width = '100%';
+        iframe.style.height = '100%';
+        iframe.src = url;
+        win.document.body.appendChild(iframe);
+    }
+    </script>
+</body>
+</html>
